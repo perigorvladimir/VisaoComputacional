@@ -1,7 +1,7 @@
 import cv2
 import numpy
 
-imagem = cv2.imread('gatoMarrom.jpeg')
+imagem = cv2.imread('entrada.jpeg')
 cv2.imshow("imagem normal", imagem);
 
 #GAUSSIAN BLUR (blur com peso diferente para pixel distante)

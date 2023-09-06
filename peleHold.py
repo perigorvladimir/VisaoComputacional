@@ -5,7 +5,7 @@ import matplotlib.pyplot as pyplot
 min_HSV = numpy.array([0,58,30], dtype= "uint8")
 max_HSV =numpy.array([33,255,255], dtype = "uint8")
 
-imagem = cv2.imread('gatoPreto.jpeg')
+imagem = cv2.imread('vitor.jpeg')
 imagemHSV = cv2.cvtColor (imagem, cv2.COLOR_BGR2HSV)
 peleHSV = cv2.inRange(imagemHSV, min_HSV, max_HSV)
 
